@@ -214,10 +214,7 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-# Generated training artifacts (reproducible via `python -m src.train`)
-models/*.joblib
-models/metrics.json
-.DS_Store
+# Model artifacts
+models/
 
-# Streamlit
-.streamlit/secrets.toml
+.DS_Store
